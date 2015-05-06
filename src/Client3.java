@@ -25,7 +25,7 @@ public class Client3 {
 
             SocketChannel mySocket = SocketChannel.open();
 
-            // non blocking 1
+            // non blocking 11
             mySocket.configureBlocking(false);
 
             // connect to a running server
